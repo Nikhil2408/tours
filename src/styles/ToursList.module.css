@@ -1,0 +1,32 @@
+.ToursList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    font-size: 2.5rem;
+    margin: 1rem 0.5rem 0rem 0.5rem;
+}
+
+.header-border{
+    width: 50px;
+    height: 5px;
+    background-color: slateblue;
+    margin-bottom: 1rem;
+}
+
+.loadTours{
+    margin: 2rem 1rem;
+    background-color: slateblue;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.loadTours:hover{
+    background-color: rgb(173, 164, 233);
+    color: black;
+}
